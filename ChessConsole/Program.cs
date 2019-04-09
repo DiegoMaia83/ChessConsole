@@ -1,5 +1,5 @@
 ﻿using System;
-using ChessConsole.Tabuleiro;
+using ChessConsole.Composicao;
 
 namespace ChessConsole
 {
@@ -7,7 +7,7 @@ namespace ChessConsole
     {
         static void Main(string[] args)
         {
-            Posicao p = new Posicao(3, 4);
+            Tabuleiro tab = new Tabuleiro(8, 8);
 
             Console.WriteLine(p);
         }

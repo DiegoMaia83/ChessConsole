@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ChessConsole.Tabuleiro
+﻿namespace ChessConsole.Composicao
 {
     class Posicao
     {
